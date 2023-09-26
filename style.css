@@ -1,10 +1,13 @@
-.Header ul{
+ul{
     list-style: none;
     display:flex;
+    
 }
 .headerLogo{
     font-size: 28px;
     font-weight: 900;
+    /* color:white; */
+    
 }
 .Header li{
     margin:8px;
@@ -13,8 +16,58 @@
     display:flex;
     justify-content: space-around;
     align-items: center;
+    background-color: #003459;
+    color:white;
 }
-
+a{
+    color:white;
+    text-decoration: none;
+}
 *{
     outline:2px solid red;
+}
+
+.HeroText{
+    background-color: #003459;
+    display:flex;
+    justify-content: space-around;
+    padding:100px;
+    
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    flex-grow:0;
+    max-width: 400px;
+    /* margin-right:144px; */
+}
+.MainTitle{
+    font-size: 42px;
+    color:white;
+
+}
+.SubText{
+    font-size: 18px;
+    color:whitesmoke;
+}
+/* .signup{
+    font-size: 24px;
+    padding:6px 12px;
+    flex-grow:0;
+} */
+.signup {
+    padding:0.6em 2em;
+    border-radius: 8px;
+    color:#fff;
+    background-color:#1976d2;
+    font-size:1.1em;
+    border:0;
+    cursor:pointer;
+    margin:1em;
+    width:max-content;
+  }
+
+.Information {
+    display:flex;
+    flex-direction: column;
 }
